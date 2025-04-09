@@ -1,0 +1,39 @@
+/* CSS HEX */
+ --apricot: #ee9964;
+--pampas: #f4f3ec;
+--pancho: #efc5a6;
+--givry: #f9e1c6;
+--tan: #d3aa97;
+--bone: #e4cabe;
+--champagne: #fbead4;
+--pot-pourri: #f2dbd4;
+--alto: #dcdada;
+--pink-swan: #c4bcbc;
+
+
+/* SCSS HEX */
+$apricot: #ee9964;
+$pampas: #f4f3ec;
+$pancho: #efc5a6;
+$givry: #f9e1c6;
+$tan: #d3aa97;
+$bone: #e4cabe;
+$champagne: #fbead4;
+$pot-pourri: #f2dbd4;
+$alto: #dcdada;
+$pink-swan: #c4bcbc;
+
+
+/* SCSS RGB */
+--apricot: rgba(238,153,100,1);
+--pampas: rgba(244,243,236,1);
+--pancho: rgba(239,197,166,1);
+--givry: rgba(249,225,198,1);
+--tan: rgba(211,170,151,1);
+--bone: rgba(228,202,190,1);
+--champagne: rgba(251,234,212,1);
+--pot-pourri: rgba(242,219,212,1);
+--alto: rgba(220,218,218,1);
+--pink-swan: rgba(196,188,188,1);
+
+
