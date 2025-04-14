@@ -9,7 +9,11 @@ export default function Hero(){
                     <h1 className="font-bold text-[#ee9964] text-4xl mb-4">{title}</h1>
                     <p className="text-[#ee9964] text-lg">{description}</p>
                 </div>
-            </div>
+            </div  >
+
+
+
+
             <div className="w-1/2">
                 <img src={logo} alt="logo" className="h-full w-full object-cover" />
             </div>
