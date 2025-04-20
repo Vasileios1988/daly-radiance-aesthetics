@@ -1,15 +1,20 @@
 import Hero from './components/Hero.jsx'
+
 import logo from './artwork/logo.jpg'
+
+import Services from './components/Services.jsx'
+
 import './index.css'
 
 function App() {
   return (
     <>
-      <Hero
-        title="Daly Radiance Aesthetics"
-        description="Mental Health Nurse & Aesthetic Practitioner"
-        logo={logo}
-      />
+
+      <Hero/>
+
+     
+      <Services />
+
     </>
   )
 }
