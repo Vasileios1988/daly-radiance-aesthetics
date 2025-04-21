@@ -1,8 +1,8 @@
-import Hero from './components/Hero.jsx'
+import Hero from './components/Hero.tsx'
 
 import logo from './artwork/logo.jpg'
 
-import Services from './components/Services.jsx'
+import Services from './components/Services.tsx'
 
 import './index.css'
 

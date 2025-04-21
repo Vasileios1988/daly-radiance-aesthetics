@@ -1,6 +1,12 @@
 import { ChevronDownIcon } from '@heroicons/react/24/solid'
-import PropTypes from 'prop-types'
-export default function Hero({ title, description, logo }) {
+
+type HeroProps = {
+    title: string;
+    description: string;
+    logo: string;
+};
+
+export default function Hero({ title, description, logo }: HeroProps) {
   return (
     <>
       {/* Hero Section */}
@@ -39,8 +45,5 @@ export default function Hero({ title, description, logo }) {
   )
 }
 
-Hero.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  logo: PropTypes.string,
-}
+
+
