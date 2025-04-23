@@ -1,5 +1,5 @@
 import Hero from './components/Hero'
-import logo from './artworkç/logo.jpg'
+import logo from './artwork/logo.jpg'
 import Services from './components/Services'
 
 import './index.css'
