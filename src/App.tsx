@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
-import logo from './artworkç/logo.jpg'
+import logo from './artwork/logo.jpg'
 import Services from './components/Services'
+import About from './components/About'
 
 import './index.css'
 
@@ -12,6 +13,8 @@ function App() {
 
      
       <Services />
+
+        <About />
 
     </>
   )
