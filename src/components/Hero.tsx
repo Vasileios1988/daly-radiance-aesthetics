@@ -1,10 +1,10 @@
 import { ChevronDownIcon } from '@heroicons/react/24/solid'
 
 type HeroProps = {
-    title: string;
-    description: string;
-    logo: string;
-};
+  title: string
+  description: string
+  logo: string
+}
 
 export default function Hero({ title, description, logo }: HeroProps) {
   return (
@@ -44,6 +44,3 @@ export default function Hero({ title, description, logo }: HeroProps) {
     </>
   )
 }
-
-
-
