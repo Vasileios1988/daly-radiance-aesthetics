@@ -1,5 +1,5 @@
 type AboutProps = {
-  photoUrl?: string // optional for now
+  photoUrl: string
 }
 
 export default function About({ photoUrl }: AboutProps) {
@@ -12,13 +12,12 @@ export default function About({ photoUrl }: AboutProps) {
         {/* Photo placeholder or image */}
         <div className="w-full md:w-1/3">
           <img
-            src={photoUrl || 'https://placehold.co/600x400'}
+            src={photoUrl}
             alt="Shelley – Owner of Daly Radiance Aesthetics"
             className="rounded-lg shadow-md w-full h-auto object-cover"
           />
         </div>
 
-        {/* About Text */}
         <div className="w-full md:w-2/3">
           <h2 className="text-3xl font-bold text-brandPink mb-4">
             About Shelley

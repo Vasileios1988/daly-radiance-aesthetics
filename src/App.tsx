@@ -16,7 +16,7 @@ function App() {
 
       <Services />
 
-      <About />
+      <About photoUrl={'https://placehold.co/600x400'} />
     </>
   )
 }
