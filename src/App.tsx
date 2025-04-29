@@ -8,14 +8,15 @@ import './index.css'
 function App() {
   return (
     <>
+      <Hero
+        title={'Daly Radiance Aesthetics'}
+        description={'Aesthetic treatments designed to refresh, not replace.'}
+        logo={logo}
+      />
 
-      <Hero title={'Daly Radiance Aesthetics'} description={'Aesthetic treatments designed to refresh, not replace.'} logo={logo}/>
-
-     
       <Services />
 
-        <About />
-
+      <About />
     </>
   )
 }
