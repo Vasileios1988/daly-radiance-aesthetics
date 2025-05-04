@@ -1,8 +1,7 @@
 import Hero from './components/Hero'
 import logo from './artwork/logo.jpg'
 import Services from './components/Services'
-import About from './components/About'
-
+import Contact from './components/Contact'
 import './index.css'
 
 function App() {
@@ -14,9 +13,13 @@ function App() {
         logo={logo}
       />
 
+
+      <Hero title={'Daly Radiance Aesthetics'} description={'Aesthetic treatments designed to refresh, not replace.'} logo={logo}/>
+
       <Services />
 
-      <About photoUrl={'https://placehold.co/600x400'} />
+        <Contact />
+
     </>
   )
 }
