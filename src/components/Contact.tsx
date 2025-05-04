@@ -16,7 +16,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="bg-white py-16 px-6 md:px-20">
+    <div id="contact" className="bg-white py-16 px-6 md:px-20">
       <div className="max-w-4xl mx-auto">
         {/* Title */}
         <h2 className="text-3xl font-bold text-brandPink mb-4">Contact Us</h2>

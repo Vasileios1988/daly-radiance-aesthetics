@@ -3,10 +3,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#about' },
   { name: 'Services', href: '#services' },
+  { name: 'About', href: '#about' },
   { name: 'Contact', href: '#contact' },
-  { name: 'Book', href: '#book' },
 ]
 
 export default function Navbar() {
