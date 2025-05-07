@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import myImage from '../artwork/logo.jpg';
 
 const navigation = [
   { name: 'Services', href: '#services' },
@@ -19,7 +20,7 @@ export default function Navbar() {
       >
         {/* Left: Logo and title */}
         <div className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Logo" className="h-8 w-8" />
+          <img src={myImage} alt="Logo" className="h-8 w-8" />
           <span className="text-xl font-bold text-brandPink">
             Daly Radiance
           </span>
