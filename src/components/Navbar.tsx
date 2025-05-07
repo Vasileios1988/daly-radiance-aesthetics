@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import myImage from '../artwork/logo.jpg';
+import myImage from '../artwork/logo.jpg'
 
 const navigation = [
   { name: 'Services', href: '#services' },
