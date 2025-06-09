@@ -13,13 +13,24 @@ export default function Footer() {
 
         {/* Right: Social Icons */}
         <div className="flex space-x-4 text-brandPink text-xl">
-          <a href="https://www.instagram.com" aria-label="Instagram">
+
+          <a
+            href="https://www.instagram.com/dalyradianceaesthetics?igsh=ODZ2NTUzM2g4bWly&utm_source=qr"
+            aria-label="Instagram"
+          >
             <FaInstagram className="hover:text-flamePea transition duration-300" />
           </a>
-          <a href="https://www.tiktok.com" aria-label="TikTok">
+          <a
+            href="https://www.tiktok.com/@dalyradianceaesthetics?_t=ZN-8x48qIQLV7n&_r=1"
+            aria-label="TikTok"
+          >
             <SiTiktok className="hover:text-flamePea transition duration-300" />
           </a>
-          <a href="https://www.facebook.com" aria-label="Facebook">
+          <a
+            href="https://www.facebook.com/share/1Tjyw4eYsd/?mibextid=wwXIfr"
+            aria-label="Facebook"
+          >
+
             <FaFacebookF className="hover:text-flamePea transition duration-300" />
           </a>
         </div>
