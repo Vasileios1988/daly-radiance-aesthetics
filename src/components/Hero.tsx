@@ -16,15 +16,15 @@ export default function Hero({ title, description, logo }: HeroProps) {
           <h1 className="font-bold text-[#ee9964] text-4xl mb-4">{title}</h1>
           <p className="text-[#ee9964] text-lg mb-6">{description}</p>
 
-          <button
-            type="button"
-            onClick={() => {
-              console.log('Booking button clicked')
-            }}
-            className="bg-[#ee9964] text-white px-6 py-3 rounded-full text-lg font-medium transition transform hover:scale-105 hover:bg-[#e98549] focus:outline-none focus:ring-2 focus:ring-[#ee9964] focus:ring-offset-2"
-          >
-            Book Now
-          </button>
+            <button
+                type="button"
+
+                onClick={() => window.open("https://facesconsent.com/bookings/dalyaestheticandskinrejuvenation", "_blank")}
+
+                className="bg-[#ee9964] text-white px-6 py-3 rounded-full text-lg font-medium transition transform hover:scale-105 hover:bg-[#e98549] focus:outline-none focus:ring-2 focus:ring-[#ee9964] focus:ring-offset-2"
+            >
+                Book Now
+            </button>
         </div>
 
         {/* Right Side: Image */}
