@@ -1,5 +1,4 @@
 import Hero from './components/Hero'
-// @ts-ignore
 import logo from './artwork/logo.jpg'
 import Services from './components/Services'
 import Contact from './components/Contact'

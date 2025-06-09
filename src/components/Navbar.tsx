@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import myImage from '../artwork/logo.jpg';
+import myImage from '../artwork/logo.jpg'
 
 const navigation = [
   { name: 'Services', href: '#services' },
@@ -37,6 +37,14 @@ export default function Navbar() {
               {item.name}
             </a>
           ))}
+          <button
+              onClick={() =>
+                  window.open('https://facesconsent.com/bookings/dalyaestheticandskinrejuvenation', '_blank')
+              }
+              className="bg-brandPink text-white px-4 py-2 rounded-full text-sm hover:bg-[#d15d2e] transition"
+          >
+            Book Now
+          </button>
         </div>
 
         {/* Burger icon for mobile */}
@@ -77,6 +85,16 @@ export default function Navbar() {
                 {item.name}
               </a>
             ))}
+
+            {/* Mobile Book Now Button */}
+            <a
+                href="https://facesconsent.com/bookings/dalyaestheticandskinrejuvenation"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 bg-brandPink text-white text-center py-3 rounded-full font-medium hover:bg-[#d15d2e] transition"
+            >
+              Book Now
+            </a>
           </div>
         </div>
       </Dialog>
