@@ -2,6 +2,7 @@ import Hero from './components/Hero'
 import logo from './artwork/logo.jpg'
 import Services from './components/Services'
 import About from './components/About'
+import shelleyPhoto from './artwork/Shelley.png';
 
 import './index.css'
 
@@ -16,7 +17,7 @@ function App() {
 
       <Services />
 
-      <About photoUrl={'https://placehold.co/600x400'} />
+        <About photoUrl={shelleyPhoto} />
     </>
   )
 }
