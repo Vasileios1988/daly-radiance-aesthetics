@@ -15,13 +15,13 @@ function App() {
         <Navbar />
         <Hero
             title={'Daly Radiance Aesthetics'}
-            description={'Aesthetic treatments designed to refresh, not replace.'}
+            description={'The aim is to enhance your natural beauty!'}
             logo={logo}
         />
 
         <Services />
 
-        <About photoUrl={''} />
+        <About photoUrl={botox} />
 
         <Contact />
 
