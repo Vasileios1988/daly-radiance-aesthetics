@@ -5,19 +5,27 @@ import About from './components/About'
 import botox from './artwork/botox.jpg';
 
 import './index.css'
+import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Hero
-        title={'Daly Radiance Aesthetics'}
-        description={'Aesthetic treatments designed to refresh, not replace.'}
-        logo={logo}
-      />
+        <Navbar />
+        <Hero
+            title={'Daly Radiance Aesthetics'}
+            description={'Aesthetic treatments designed to refresh, not replace.'}
+            logo={logo}
+        />
 
-      <Services />
+        <Services />
 
-        <About photoUrl={botox} />
+        <About photoUrl={''} />
+
+        <Contact />
+
+        <Footer />
     </>
   )
 }
