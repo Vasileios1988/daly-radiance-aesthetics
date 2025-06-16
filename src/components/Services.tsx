@@ -4,9 +4,9 @@ export default function Services() {
   return (
       <section id="services" className="bg-white py-16 px-6 md:px-20 text-gray-800">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-brandPink mb-6">💼 Aesthetic Treatment Menu</h2>
+          <h2 className="text-3xl font-bold text-brandPink mb-6">Aesthetic Treatment Menu</h2>
           <p className="mb-2 font-medium">
-            <strong>Note:</strong> A consultation is required for all treatments.
+            <strong>Note:</strong> A consultation is provided for all treatments.
           </p>
           <p className="mb-8 font-medium">
             <strong>Duration:</strong> 1 hour | <strong>Price:</strong> £50
@@ -14,7 +14,7 @@ export default function Services() {
 
           {[
             {
-              title: "✨ Anti-Wrinkle Treatment",
+              title: "Anti-Wrinkle Treatment",
               treatments: [
                 ["1 Area of Botox", "£100.00", "30 mins"],
                 ["2 Areas Botox", "£150.00", "30 mins"],
@@ -28,7 +28,7 @@ export default function Services() {
               ],
             },
             {
-              title: "💉 Dermal Filler",
+              title: "Dermal Filler",
               treatments: [
                 ["3ml Jaw Filler", "£330.00", "1 hr"],
                 ["Cheek Filler 2ml", "£250.00", "45 mins"],
@@ -45,21 +45,21 @@ export default function Services() {
               ],
             },
             {
-              title: "🧬 Polynucleotides",
+              title: "Polynucleotides",
               treatments: [
                 ["Polynucleotides Under Eye (3 treatments)", "£300.00", "30 mins"],
                 ["Polynucleotide Three Sessions", "£400.00", "1 hr"],
               ],
             },
             {
-              title: "🧖‍♀️ Skin Booster",
+              title: "Skin Booster",
               treatments: [
                 ["Skin Booster", "£200.00", "1 hr"],
                 ["Nasal Labial 1ML", "£140.00", "45 mins"],
               ],
             },
             {
-              title: "🔬 Microneedling",
+              title: "Microneedling",
               treatments: [
                 ["Microneedling", "£40.00", "45 mins"],
                 ["Meso-microneedling", "£80.00", "45 mins"],
@@ -90,14 +90,12 @@ export default function Services() {
           ))}
 
           <div className="text-center mt-10">
-            <button
-                onClick={() =>
-                    window.open('https://facesconsent.com/book/YOUR-LINK', '_blank')
-                }
-                className="bg-brandPink text-white px-8 py-3 rounded-full text-lg hover:bg-[#d15d2e] transition"
-            >
-              Book Now
-            </button>
+              <button
+                  onClick={() => window.open('https://facesconsent.com/bookings/dalyaestheticandskinrejuvenation', '_blank')}
+                  className="bg-brandPink text-white px-4 py-2 rounded-full text-sm hover:bg-[#d15d2e] transition"
+              >
+                  Book Now
+              </button>
           </div>
         </div>
       </section>
