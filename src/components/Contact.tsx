@@ -50,7 +50,7 @@ export default function Contact() {
           </p>
 
           {submitted ? (
-              <p className="text-green-600 font-semibold">Thank you! Your message has been sent.</p>
+              <p className="text-brandPink font-semibold">Thank you! Your message has been sent.</p>
           ) : (
               <form
                   onSubmit={handleSubmit}
