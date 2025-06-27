@@ -4,15 +4,15 @@ const serviceSections = [
     {
         title: "Anti-Wrinkle Treatment",
         treatments: [
-            ["1 Area of Botox", "£100.00", "30 mins"],
-            ["2 Areas Botox", "£150.00", "30 mins"],
-            ["3 Areas Botox", "£200.00", "30 mins"],
+            ["1 Area", "£100.00", "30 mins"],
+            ["2 Areas", "£150.00", "30 mins"],
+            ["3 Areas", "£200.00", "30 mins"],
             ["Bunny Lines", "£60.00", "30 mins"],
             ["Brow Lift", "£250.00", "30 mins"],
-            ["Pebble Chin Botox", "£120.00", "30 mins"],
+            ["Pebble Chin", "£120.00", "30 mins"],
             ["Lip Flip", "£120.00", "30 mins"],
-            ["Masseter Botox", "£180.00", "30 mins"],
-            ["Botox Review", "£0.00", "30 mins"],
+            ["Masseter", "£180.00", "30 mins"],
+            ["Review", "£0.00", "30 mins"],
         ],
     },
     {
@@ -21,7 +21,7 @@ const serviceSections = [
             ["3ml Jaw Filler", "£330.00", "1 hr"],
             ["Cheek Filler 2ml", "£250.00", "45 mins"],
             ["Cheek Filler 1.1ml", "£160.00", "1 hr"],
-            ["Nasal Labial 1ML", "£140.00", "45 mins"],
+            ["Nasal Labial 1ml", "£140.00", "45 mins"],
             ["Tear Trough", "£170.00", "45 mins"],
             ["Marionette Lines", "£140.00", "45 mins"],
             ["Filler Dissolve", "£150.00", "1 hr"],
@@ -29,21 +29,20 @@ const serviceSections = [
             ["Signature Lips 0.5ml", "£85.00", "45 mins"],
             ["Signature Lip 1.1ml", "£170.00", "45 mins"],
             ["1.1ml Classic Lip", "£149.00", "45 mins"],
-            ["Russian Lip", "£179.00", "1 hr"],
+            ["Russian Lip", "£190.00", "1 hr"],
         ],
     },
     {
         title: "Polynucleotides",
         treatments: [
-            ["Polynucleotides Under Eye (3 treatments)", "£300.00", "30 mins"],
+            ["Polynucleotides Under Eye (3 treatments)", "£200.00", "30 mins"],
             ["Polynucleotide Three Sessions", "£400.00", "1 hr"],
         ],
     },
     {
         title: "Skin Booster",
         treatments: [
-            ["Skin Booster", "£200.00", "1 hr"],
-            ["Nasal Labial 1ML", "£140.00", "45 mins"],
+            ["Skin Booster", "£150.00", "1 hr"],
         ],
     },
     {

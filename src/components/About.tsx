@@ -24,7 +24,7 @@ export default function About({ photoUrl }: AboutProps) {
           </h2>
           <p className="text-lg leading-relaxed">
             Shelley is the heart behind Daly Radiance Aesthetics. With over 16
-            years in healthcare — including 5 years as a mental health nurse —
+            years in healthcare, including 5 years as a mental health nurse,
             she brings deep empathy and understanding to her work. Her unique
             background helps her support not only the beauty but also the
             emotional well-being of her clients.
