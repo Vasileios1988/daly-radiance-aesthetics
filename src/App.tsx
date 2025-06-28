@@ -2,7 +2,7 @@ import Hero from './components/Hero'
 import logo from './artwork/logo.jpg'
 import Services from './components/Services'
 import About from './components/About'
-import botox from './artwork/botox.jpg';
+import shelley from './artwork/Shelley-work.png';
 
 import './index.css'
 import Navbar from "./components/Navbar";
@@ -21,7 +21,7 @@ function App() {
 
         <Services />
 
-        <About photoUrl={botox} />
+        <About photoUrl={shelley} />
 
         <Contact />
 
